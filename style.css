@@ -1,0 +1,149 @@
+/* main banner */
+
+.banner {
+  margin: 50px 22%;
+}
+
+.banner-img {
+  width: 1000px;
+  height: 500px;
+  filter: brightness(50%);
+}
+
+.banner-text {
+  color: white;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  /* margin: 177px 0px; */
+  padding: 0 16%;
+}
+.b-first {
+  font-size: 32px;
+}
+.b-second {
+  font-size: 52px;
+}
+
+/* sale-section */
+
+.sale-section {
+  margin: 120px 30%;
+}
+.newYear-img {
+  width: 800px;
+  height: 500px;
+}
+.sale-text {
+  text-align: center;
+}
+
+.sale-h1 {
+  font-size: 88px;
+  color: rgba(255, 0, 0, 1);
+}
+.sale-p {
+  font-size: 24px;
+}
+/* welcome section */
+
+.welcome {
+  margin: 50px 22%;
+}
+.welcome-img {
+  width: 1000px;
+  height: 500px;
+  filter: brightness(50%);
+}
+.welcome-contents {
+  display: flex;
+  margin: 0 120px;
+  position: absolute;
+  top: 1600px;
+}
+.welcome-text {
+  color: white;
+}
+.welcome-logo {
+  width: 300px;
+  height: 400px;
+  padding: 0 100px;
+}
+.welcom-btn {
+  color: white;
+  background-color: rgba(255, 0, 0, 1);
+  width: 165px;
+  height: 55px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.welcom-btn:hover {
+  border: 5px solid orangered;
+  color: orangered;
+  background-color: rgba(255, 69, 0, 0.1);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2), 0 0 25px rgba(255, 0, 0, 0.1);
+}
+/* venue section */
+.venue-section {
+  border-radius: 20px;
+  width: 1000px;
+  height: 300px;
+  margin: 50px 22%;
+  background-color: rgba(255, 234, 234, 1);
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+.venue-section button {
+  color: white;
+  background-color: rgba(255, 0, 0, 1);
+  width: 165px;
+  height: 55px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.venue-section button:hover {
+  border: 5px solid orangered;
+  color: orangered;
+  background-color: rgba(255, 69, 0, 0.1);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2), 0 0 25px rgba(255, 0, 0, 0.1);
+}
+/* coming soon section */
+
+.coming-soon {
+  margin: 120px 22%;
+  display: flex;
+  justify-content: space-between;
+}
+.image-container {
+  margin-left: 50px;
+  margin-right: 112px;
+  display: inline-block;
+  border: 20px solid;
+  border-radius: 500px;
+  border-color: rgba(255, 0, 0, 1);
+  padding: 30px;
+  background-color: #fff;
+}
+/* Portfolio section */
+.Portfolio-section {
+  margin: 120px 15%;
+  width: 1000px;
+  height: 1160px;
+}
+.gifts-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+/* subscribtion-part */
+.subscribtion {
+  background-color: rgba(255, 0, 0, 0.05);
+  margin: 120px 22%;
+  width: 1100px;
+  height: 600px;
+}
+.subscribtion-img {
+  padding: 80px 0px 0px 470px;
+}
